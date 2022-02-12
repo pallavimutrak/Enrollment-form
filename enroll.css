@@ -1,0 +1,103 @@
+h1{
+
+	color:rebeccapurple;
+	text-align: left;
+	font-weight: bold;
+}
+h2{
+	color: black;
+	text-align: center;
+    font-weight: 900;
+
+}
+body{
+	background-image: url(enroll.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: #000;
+
+}
+body > table{
+    width: 100%;
+	max-height: fit-content;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+	padding: 5px;
+	height: 20px;
+    align: center;
+	border-collapse: collapse;
+	background-color: lightgoldenrodyellow;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+}
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid brown;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 35%;
+    background-color:darkblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 4px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'times new roman'
+    
+    
+}
+form div.form-action-buttons{
+    text-align: left;
+
+}
+
+a{
+    cursor: pointer;
+    margin-right: 4px;
+	width: 30%;
+    background-color: black;
+    color: white;
+    padding: 5px 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+}
+
+label.validation-error{
+    color:  red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
